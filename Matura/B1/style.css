@@ -1,0 +1,66 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #305f8e;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #6da3c7;
+  }
+  
+  .active {
+    background-color: #6da3c7;
+    color: black;
+  }
+
+body{
+    background-color: #b1d7e7;
+}
+h1{
+    color: #305f8e;
+    padding: 10pt;
+}
+
+.glavna{
+    margin-left: 18%;
+}
+.male{
+    display: flex;
+    margin-left: 18%;
+}
+.sstajl{
+    width: 88px;
+    height: 60px;
+    border: 1px solid white;
+}
+.gsstajl{
+    width: 900px;
+    height: 693px;
+}
+.tarea{
+    height: 100px;
+    overflow-y: scroll;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
